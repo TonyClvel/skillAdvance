@@ -1,0 +1,88 @@
+{
+  "skill": "apify-health-check",
+  "generatedAt": "2026-09-25T12:00:00Z",
+  "actorId": "demo/broken-scraper",
+  "summary": {
+    "total": 9,
+    "passed": 4,
+    "failed": 5
+  },
+  "references": {
+    "actorDocsTitle": "# Documentacion del actor Apify",
+    "troubleshootingGuideTitle": "# Guia de troubleshooting"
+  },
+  "checks": [
+    {
+      "id": "C1",
+      "block": "Conectividad",
+      "name": "Token configurado",
+      "status": "PASS",
+      "detail": "El token esta configurado.",
+      "hint": null
+    },
+    {
+      "id": "C2",
+      "block": "Conectividad",
+      "name": "Actor disponible",
+      "status": "FAIL",
+      "detail": "El actor no responde o no existe.",
+      "hint": "Verifica actorId, permisos y que el actor no haya sido eliminado."
+    },
+    {
+      "id": "C3",
+      "block": "Conectividad",
+      "name": "Dataset accesible",
+      "status": "PASS",
+      "detail": "El dataset puede consultarse.",
+      "hint": null
+    },
+    {
+      "id": "D1",
+      "block": "Contrato de datos",
+      "name": "Schema esperado",
+      "status": "PASS",
+      "detail": "3/3 campos requeridos definidos.",
+      "hint": null
+    },
+    {
+      "id": "D2",
+      "block": "Contrato de datos",
+      "name": "Registros presentes",
+      "status": "PASS",
+      "detail": "1 registro(s) encontrados.",
+      "hint": null
+    },
+    {
+      "id": "D3",
+      "block": "Contrato de datos",
+      "name": "Registros validos",
+      "status": "FAIL",
+      "detail": "Al menos un registro no cumple el schema.",
+      "hint": "Inspecciona el primer registro y normaliza los campos requeridos."
+    },
+    {
+      "id": "O1",
+      "block": "Operacion",
+      "name": "Ultimo run exitoso",
+      "status": "FAIL",
+      "detail": "Estado del ultimo run: FAILED.",
+      "hint": "Consulta los logs del ultimo run y corrige el error del actor."
+    },
+    {
+      "id": "O2",
+      "block": "Operacion",
+      "name": "Datos recientes",
+      "status": "FAIL",
+      "detail": "Ultima ejecucion hace 122.0 hora(s).",
+      "hint": "Programa una ejecucion mas reciente o aumenta maxFreshnessHours conscientemente."
+    },
+    {
+      "id": "O3",
+      "block": "Operacion",
+      "name": "Tasa de errores aceptable",
+      "status": "FAIL",
+      "detail": "Tasa de errores: 40.0%.",
+      "hint": "Revisa errores del actor y no publiques datos mientras supere el umbral."
+    }
+  ]
+}

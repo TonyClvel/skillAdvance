@@ -1,0 +1,11 @@
+{
+  "C1": "Configura APIFY_TOKEN como secreto y vuelve a ejecutar el actor.",
+  "C2": "Verifica actorId, permisos y que el actor no haya sido eliminado.",
+  "C3": "Revisa el datasetId y los permisos de lectura de la cuenta Apify.",
+  "D1": "Actualiza expected-schema.json o corrige el contrato producido por el actor.",
+  "D2": "Confirma que el actor termino y que el dataset contiene items.",
+  "D3": "Inspecciona el primer registro y normaliza los campos requeridos.",
+  "O1": "Consulta los logs del ultimo run y corrige el error del actor.",
+  "O2": "Programa una ejecucion mas reciente o aumenta maxFreshnessHours conscientemente.",
+  "O3": "Revisa errores del actor y no publiques datos mientras supere el umbral."
+}

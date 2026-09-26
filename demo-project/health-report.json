@@ -1,0 +1,88 @@
+{
+  "skill": "apify-health-check",
+  "generatedAt": "2026-09-25T12:00:00Z",
+  "actorId": "demo/contact-scraper",
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0
+  },
+  "references": {
+    "actorDocsTitle": "# Documentacion del actor Apify",
+    "troubleshootingGuideTitle": "# Guia de troubleshooting"
+  },
+  "checks": [
+    {
+      "id": "C1",
+      "block": "Conectividad",
+      "name": "Token configurado",
+      "status": "PASS",
+      "detail": "El token esta configurado.",
+      "hint": null
+    },
+    {
+      "id": "C2",
+      "block": "Conectividad",
+      "name": "Actor disponible",
+      "status": "PASS",
+      "detail": "Actor demo/contact-scraper disponible.",
+      "hint": null
+    },
+    {
+      "id": "C3",
+      "block": "Conectividad",
+      "name": "Dataset accesible",
+      "status": "PASS",
+      "detail": "El dataset puede consultarse.",
+      "hint": null
+    },
+    {
+      "id": "D1",
+      "block": "Contrato de datos",
+      "name": "Schema esperado",
+      "status": "PASS",
+      "detail": "3/3 campos requeridos definidos.",
+      "hint": null
+    },
+    {
+      "id": "D2",
+      "block": "Contrato de datos",
+      "name": "Registros presentes",
+      "status": "PASS",
+      "detail": "2 registro(s) encontrados.",
+      "hint": null
+    },
+    {
+      "id": "D3",
+      "block": "Contrato de datos",
+      "name": "Registros validos",
+      "status": "PASS",
+      "detail": "Todos los registros cumplen el schema.",
+      "hint": null
+    },
+    {
+      "id": "O1",
+      "block": "Operacion",
+      "name": "Ultimo run exitoso",
+      "status": "PASS",
+      "detail": "Estado del ultimo run: SUCCEEDED.",
+      "hint": null
+    },
+    {
+      "id": "O2",
+      "block": "Operacion",
+      "name": "Datos recientes",
+      "status": "PASS",
+      "detail": "Ultima ejecucion hace 2.0 hora(s).",
+      "hint": null
+    },
+    {
+      "id": "O3",
+      "block": "Operacion",
+      "name": "Tasa de errores aceptable",
+      "status": "PASS",
+      "detail": "Tasa de errores: 2.0%.",
+      "hint": null
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "actorId": "demo/broken-scraper",
+  "connectivity": { "tokenConfigured": true, "actorExists": false },
+  "dataset": { "accessible": true, "records": [{ "name": "Registro incompleto" }] },
+  "lastRun": { "status": "FAILED", "finishedAt": "2026-09-20T10:00:00Z" },
+  "errorRate": 0.4
+}

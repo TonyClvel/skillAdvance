@@ -1,0 +1,18 @@
+{
+  "actorId": "demo/contact-scraper",
+  "connectivity": {
+    "tokenConfigured": true,
+    "actorExists": true
+  },
+  "dataset": {
+    "accessible": true,
+    "records": [
+      { "name": "Ada Lovelace", "email": "ada@example.com", "updatedAt": "2026-09-25T10:00:00Z" },
+      { "name": "Grace Hopper", "email": "grace@example.com", "updatedAt": "2026-09-25T10:05:00Z" }
+    ]
+  },
+  "lastRun": { "status": "SUCCEEDED", "finishedAt": "2026-09-25T10:00:00Z" },
+  "errorRate": 0.02,
+  "maxFreshnessHours": 24,
+  "maxErrorRate": 0.1
+}

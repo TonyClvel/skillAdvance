@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "required": ["name", "email", "updatedAt"],
+  "properties": {
+    "name": { "type": "string" },
+    "email": { "type": "string" },
+    "updatedAt": { "type": "string" }
+  }
+}
